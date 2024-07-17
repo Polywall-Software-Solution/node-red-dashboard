@@ -19,7 +19,7 @@
             "site": "Site"
         },
         "auto": "auto",
-        "title": "Node-RED Dashboard",
+        "title": "Polywall Automation Dashboards",
         "layout": {
             "tab-and-link": "Tabs & Links",
             "tab": "tab",
@@ -75,7 +75,7 @@
             "system": "System Font (default)"
         },
         "site": {
-            "title": "Node-RED Dashboard",
+            "title": "Polywall Automation Dashboards",
             "date-format": "DD/MM/YYYY"
         },
         "title-bar": {

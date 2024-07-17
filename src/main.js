@@ -416,7 +416,7 @@ app.controller('MainController', ['$mdSidenav', '$window', 'UiEvents', '$locatio
             }
             $document[0].theme = ui.theme;
             if (ui.title) { name = ui.title }
-            $document[0].title = name || "Node-RED Dashboard";
+            $document[0].title = name || "Polywall Automation Dashboards";
             $('meta[name=apple-mobile-web-app-title]').attr('content', name || "Node-RED");
 
             var prevTabIndex = parseInt($location.path().substr(1));

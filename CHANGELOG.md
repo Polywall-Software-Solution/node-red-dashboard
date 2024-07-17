@@ -543,7 +543,7 @@
   - Fix text_input to only send duplicates if enter key hit multiple times and not on loss of focus. Issue #513
   - Fix color-picker to not emit on tab change, and fix background overlay. Issue #514
   - Fix IE11 loading issue #515 (reversion)
-  - Improve embedded node-red dashboard full path resolve - Issue #517
+  - Improve embedded Polywall Automation Dashboards full path resolve - Issue #517
   - Let ui-form input be full width on IE11 - Issue #524
 
 ### 2.15.5: Maintenance Release

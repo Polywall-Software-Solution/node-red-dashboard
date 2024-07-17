@@ -47,7 +47,7 @@ ev.setMaxListeners(0);
 
 // default manifest.json to be returned as required.
 var mani = {
-    "name": "Node-RED Dashboard",
+    "name": "Polywall Automation Dashboards",
     "short_name": "Dashboard",
     "description": "A dashboard for Node-RED",
     "start_url": "./#/0",
@@ -587,7 +587,7 @@ function addLink(name, link, icon, order, target, className) {
 
 function addBaseConfig(config) {
     if (config) { baseConfiguration = config; }
-    mani.name = config.site ? config.site.name : "Node-RED Dashboard";
+    mani.name = config.site ? config.site.name : "Polywall Automation Dashboards";
     mani.short_name = mani.name.replace("Node-RED","").trim();
     mani.background_color = config.theme.themeState["page-titlebar-backgroundColor"].value;
     mani.theme_color = config.theme.themeState["page-titlebar-backgroundColor"].value;
