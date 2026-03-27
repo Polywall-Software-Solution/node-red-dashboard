@@ -1,5 +1,5 @@
 {
-    "name": "node-red-dashboard",
+    "name": "node-red-contrib-dashboard-polywall",
     "version": "3.6.6",
     "description": "A set of dashboard nodes for Node-RED",
     "keywords": [
